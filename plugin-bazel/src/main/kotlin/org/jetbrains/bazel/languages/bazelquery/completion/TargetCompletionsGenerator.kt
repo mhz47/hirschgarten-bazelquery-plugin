@@ -10,6 +10,7 @@ import kotlin.text.startsWith
 class TargetCompletionsGenerator(private val project: Project) {
   private val separator = "/"
   private val startTargetSign = "//"
+
   // TODO: check if it is possible to also consider external targets
   private val allTargets =
     project.targetUtils
