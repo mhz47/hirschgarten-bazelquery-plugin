@@ -19,11 +19,6 @@ object BazelQuerySyntaxHighlighter : SyntaxHighlighterBase() {
         .map { it to BazelQueryHighlightingColors.WORD }
         .toTypedArray(),
       BazelQueryTokenTypes.INTEGER to BazelQueryHighlightingColors.INTEGER,
-//      BazelQueryTokenTypes.COMMAND to BazelQueryHighlightingColors.COMMAND,
-//      BazelQueryTokenTypes.QUERY to BazelQueryHighlightingColors.PROMPT,
-//      BazelQueryTokenTypes.BAZEL to BazelQueryHighlightingColors.PROMPT,
-//      BazelQueryTokenTypes.QUERY_NO_SPACE to BazelQueryHighlightingColors.PROMPT,
-//      BazelQueryTokenTypes.BAZEL_NO_SPACE to BazelQueryHighlightingColors.PROMPT,
       *BazelQueryTokenSets.OPERATIONS.types
         .map { it to BazelQueryHighlightingColors.OPERATION }
         .toTypedArray(),
