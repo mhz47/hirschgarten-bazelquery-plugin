@@ -407,43 +407,43 @@
 
 
         <fileType
-                name="Bazelquery"
-                implementationClass="org.jetbrains.bazel.languages.bazelquery.BazelqueryFileType"
+                name="BazelQuery"
+                implementationClass="org.jetbrains.bazel.languages.bazelquery.BazelQueryFileType"
                 fieldName="INSTANCE"
-                language="Bazelquery"
+                language="BazelQuery"
 
                 extensions="bazelquery"
         />
 
         <lang.parserDefinition
-                language="Bazelquery"
-                implementationClass="org.jetbrains.bazel.languages.bazelquery.parser.BazelqueryParserDefinition"/>
+                language="BazelQuery"
+                implementationClass="org.jetbrains.bazel.languages.bazelquery.parser.BazelQueryParserDefinition"/>
 
         <lang.syntaxHighlighterFactory
-                language="Bazelquery"
-                implementationClass="org.jetbrains.bazel.languages.bazelquery.highlighting.BazelquerySyntaxHighlighterFactory"/>
+                language="BazelQuery"
+                implementationClass="org.jetbrains.bazel.languages.bazelquery.highlighting.BazelQuerySyntaxHighlighterFactory"/>
 
         <completion.contributor
-                language="Bazelquery"
-                implementationClass="org.jetbrains.bazel.languages.bazelquery.completion.BazelqueryCompletionContributor"/>
+                language="BazelQuery"
+                implementationClass="org.jetbrains.bazel.languages.bazelquery.completion.BazelQueryCompletionContributor"/>
 
 
         <fileType
-                name="BazelqueryFlags"
-                implementationClass="org.jetbrains.bazel.languages.bazelquery.BazelqueryFlagsFileType"
+                name="BazelQueryFlags"
+                implementationClass="org.jetbrains.bazel.languages.bazelquery.BazelQueryFlagsFileType"
                 fieldName="INSTANCE"
-                language="BazelqueryFlags"
+                language="BazelQueryFlags"
 
                 extensions="bazelqueryflags"
         />
 
         <lang.parserDefinition
-                language="BazelqueryFlags"
-                implementationClass="org.jetbrains.bazel.languages.bazelquery.parser.BazelqueryFlagsParserDefinition"/>
+                language="BazelQueryFlags"
+                implementationClass="org.jetbrains.bazel.languages.bazelquery.parser.BazelQueryFlagsParserDefinition"/>
 
         <lang.syntaxHighlighterFactory
-                language="BazelqueryFlags"
-                implementationClass="org.jetbrains.bazel.languages.bazelquery.highlighting.BazelquerySyntaxHighlighterFactory"/>
+                language="BazelQueryFlags"
+                implementationClass="org.jetbrains.bazel.languages.bazelquery.highlighting.BazelQuerySyntaxHighlighterFactory"/>
 
 
 
